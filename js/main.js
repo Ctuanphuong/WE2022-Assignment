@@ -1,27 +1,27 @@
 // --phần đổ dữ liệu của Featured works
 const workList = [{
         id: 1,
-        title: "Designing Dashboards",
-        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654653892/Rectangle_30_wpqbz9.jpg",
-        time: 2020,
-        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        title: "Food Dashboard Design",
+        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654874161/Screenshot_284_jfg2an.png",
+        time: 2022,
+        content: "This is the first major exercise with a request to create a food website homepage using a css theme support website called Tailwind CSS.",
         type: "Dashboard",
     },
     {
         id: 2,
-        title: "Vibrant Portraits of 2020",
-        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654653892/Rectangle_32_nonh8y.jpg",
-        time: 2018,
-        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-        type: "Illustration",
+        title: "Create A Sales Home Page",
+        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654874161/Screenshot_290_qecads.png",
+        time: 2022,
+        content: "The first practice exercise, creating a home page for general sales by linking to a website supporting interface code is Taiwind CSS.",
+        type: "Home Page",
     },
     {
         id: 3,
-        title: "36 Days of Malayalam type",
-        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654653892/Rectangle_34_urmhpo.jpg",
-        time: 2018,
-        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
-        type: "Typography",
+        title: "Create The School Website",
+        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654874162/Screenshot_289_h0i8dw.png",
+        time: 2022,
+        content: "Create the school website newsletter page by pure css but with a new way of naming a piece of cards that need to change the interface.",
+        type: "News",
     },
 
 ];
@@ -34,7 +34,7 @@ function showWorks(workmain) {
         result += `
         <div class="md:grid md:grid-cols-[245px,auto] gap-[17px] pb-4 md:pb-8 border-b border-[#E0E0E0] md:mx-0 mx-[18px] mt-[30px]">
         <div>
-            <img src="${work.img}" alt=" " class="w-full">
+            <img src="${work.img}" alt=" " class="w-full md:w-[246px] md:h-[180px]  border border-gray-300 shadow-xl rounded-md">
         </div>
         <div>
             <div>
