@@ -56,7 +56,7 @@ function showWorks(workmain) {
         <div>
             <div>
                 <h3 class="md:mt-0 mt-8">
-                    <a href="detail.html?id=${work.id}" class="md:text-3xl text-2xl font-bold ">${work.title}</a>
+                    <a href="detail.html?id=${work.id}" class="md:text-3xl text-2xl font-bold  hover:text-[#FF6464]">${work.title}</a>
                 </h3>
             </div>
             <div class="space-x-6 md:py-5 py-4">

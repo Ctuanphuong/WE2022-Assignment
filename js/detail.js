@@ -114,10 +114,10 @@ document.getElementById("Img").innerHTML = showImg(workList);
 const headList = [{
         id: 1,
         head1: "Featured Dishes",
-        head2: "Contact Section",
-        content: "The homepage of the website will include a featured dish section so that customers can easily identify which dishes are selling well and make their own choices, and there is also a contact section so customers can make inquiries or their suggestions to the admin.",
+        head2: "Sign In and Sign Up Section",
+        content: "The homepage of the website will have a specific dish for customers to easily recognize which dishes are selling and choose for themselves, in addition to the login or account registration section of the website.",
         img1: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654878248/Screenshot_291_dhqgqx.png",
-        img2: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654878246/Screenshot_292_ulv9z6.png",
+        img2: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654928954/Screenshot_308_jbbpz8.png",
     },
     {
         id: 2,

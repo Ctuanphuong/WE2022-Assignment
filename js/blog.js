@@ -36,7 +36,7 @@ function showBlogs(blogs) {
         const blog = blogs[i];
         result += `
         <div class="border-b boder-[#E0E0E0] max-w-3xl mt-5 md:mt-8">
-        <h3 class="text-[26px] md:text-3xl font-medium">
+        <h3 class="text-[26px] md:text-3xl font-medium  hover:text-[#FF6464]">
             <a href="">${blog.title}</a></h3>
         <div class="my-4 text-xl space-x-4">
             <span>${blog.time}</span>

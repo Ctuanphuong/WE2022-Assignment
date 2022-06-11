@@ -39,7 +39,7 @@ function showWorks(workmain) {
         <div>
             <div>
                 <h3 class="md:mt-0 mt-5">
-                    <a href="detail.html?id=${work.id}" class="md:text-3xl text-2xl font-bold ">${work.title}</a>
+                    <a href="detail.html?id=${work.id}" class="md:text-3xl text-2xl font-bold hover:text-[#FF6464]">${work.title}</a>
                 </h3>
             </div>
             <div class="space-x-6 py-5">
@@ -81,7 +81,7 @@ function showPosts(posts) {
         const post = posts[i];
         result += `
         <div class="bg-white px-[25px] pt-[22px] pb-[30px] md:pb-[40px] rounded md:mx-0 mx-3">
-        <h1 class="text-[22px] md:text-[26px] font-bold "> <a href="">${post.title}</a></h1>
+        <h1 class="text-[22px] md:text-[26px] font-bold hover:text-[#FF6464]"> <a href="">${post.title}</a></h1>
         <div class=" text-lg font-normal space-x-5 py-[20px] ">
             <span>${post.time}</span>
             <span>|</span>
