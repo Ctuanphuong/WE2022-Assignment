@@ -1,7 +1,7 @@
 const workList = [{
         id: 1,
         title: "Food Dashboard Design",
-        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654874161/Screenshot_284_jfg2an.png",
+        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654938253/Screenshot_309_a1izwq.png",
         time: 2022,
         content: "This is the first major exercise with a request to create a food website homepage using a css theme support website called Tailwind CSS.",
         type: "Dashboard",
@@ -9,7 +9,7 @@ const workList = [{
     {
         id: 2,
         title: "Create A Sales Home Page",
-        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654874161/Screenshot_290_qecads.png",
+        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654938513/Screenshot_310_anja83.png",
         time: 2022,
         content: "The first practice exercise, creating a home page for general sales by linking to a website supporting interface code is Taiwind CSS.",
         type: "Home Page",
@@ -51,7 +51,7 @@ function showWorks(workmain) {
         result += `
         <div class="md:grid md:grid-cols-[245px,auto] gap-[18px] pb-4 border-b border-[#E0E0E0] md:mb-[35px] mb-[22px] md:pb-[30px] max-w-3xl">
         <div>
-            <img src="${work.img}" alt=" " class=" w-full md:w-[246px] md:h-[180px] shadow-xl rounded-md">
+            <img src="${work.img}" alt=" " class=" w-full md:w-[246px] md:h-[180px] border border-gray shadow-xl rounded-md">
         </div>
         <div>
             <div>
