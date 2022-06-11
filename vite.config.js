@@ -10,6 +10,8 @@ module.exports = defineConfig({
                 detail: resolve(__dirname, 'detail.html'),
                 work: resolve(__dirname, 'work.html'),
                 blog: resolve(__dirname, 'blog.html'),
+                contact: resolve(__dirname, 'contact.html'),
+
             }
         }
     }
