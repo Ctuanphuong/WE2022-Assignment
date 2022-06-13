@@ -2,6 +2,7 @@
 const workList = [{
         id: 1,
         title: "Food Website Dashboard Design with Tailwind CSS",
+        img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654874161/Screenshot_284_jfg2an.png",
         img: "https://res.cloudinary.com/phuong-fpoly/image/upload/v1654938253/Screenshot_309_a1izwq.png",
         time: 2022,
         content: "This is the first major exercise with a request to create a food website homepage using a css theme support website called Tailwind CSS.",
